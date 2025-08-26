@@ -1,0 +1,267 @@
+@import url('https://fonts.cdnfonts.com/css/rosemary-2');
+@import url('https://fonts.cdnfonts.com/css/noto-serif-tangut-2');
+
+:root {
+    --text-body: 'Noto Serif Tangut', sans-serif;
+    --text-title: 'Rosemary', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0 20vh 0;
+    font-family: var(--text-body);
+}
+
+.sinPais{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--text-title);
+    font-size: 80px;
+    margin: auto;
+    padding: 8vh;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+        margin: 0;
+        font-size: 18px;
+        font-family: var(--text-body);
+    }
+    .sinPais{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--text-title);
+    font-size: 65px;
+    margin: auto;
+    padding: 5vh;
+}
+}
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        margin: 0;
+        font-family: var(--text-body);
+    }
+.sinPais{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--text-title);
+    font-size: 25px;
+    margin: auto;
+    padding: 3vh;
+}
+}
+
+
+
+/*--------------------- header ---------------------*/
+h1 {
+    text-align: center;
+    margin: 4vh;
+    font-family: var(--text-title);
+    font-size: 60px;
+}
+
+.navbar .container-fluid .form-control {
+    height: 10vh;
+    font-size: 30px;
+}
+
+.btn {
+    height: 8vh;
+    width: 30vh;
+    font-size: 30px;
+    border-radius: 999px;
+}
+
+.centro {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .navbar .container-fluid .form-control {
+        width: 80%;
+        height: 8vh;
+        font-size: 35px;
+    }
+
+    .btn {
+        height: 7vh;
+        width: 10vh;
+        font-size: 30px;
+        border-radius: 999px;
+    }
+
+    .centro {
+        padding: 0 !important;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .navbar .container-fluid .form-control {
+        width: 80%;
+        height: 8vh;
+        font-size: 20px;
+    }
+
+    .btn {
+        height: 7vh;
+        width: 10vh;
+        font-size: 15px;
+        border-radius: 999px;
+    }
+
+    .centro {
+        padding: 0 !important;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+
+    }
+
+    h1 {
+        text-align: center;
+        margin: 4vh;
+        font-family: var(--text-title);
+        font-size: 35px;
+    }
+}
+
+/*--------------------- Main ---------------------*/
+.card {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.flagCoat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10vh;
+    margin: 5vh 0;
+}
+
+.flagCoat img {
+    width: 50vh;
+    height: 50vh;
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+    .card {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 65vh;
+        text-align: center;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+
+    .flagCoat {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0;
+        margin: 0;
+    }
+
+    .flagCoat img {
+        width: 25vh;
+        height: 25vh;
+        margin: 3vh;
+    }
+
+
+
+}
+
+@media (max-width: 768px) {
+    .card {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 40vh;
+        text-align: center;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+
+    .flagCoat {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0;
+        margin: 0;
+    }
+
+    .flagCoat img {
+        width: 15vh;
+        height: 15vh;
+        margin: 3vh;
+    }
+
+}
+
+/*--------------------- Footer ---------------------*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-copy {
+    font-size: 12px;
+}
+
+.footer-def {
+    text-align: center;
+    padding: 20px 10px;
+    font-family: var(--text-body);
+}

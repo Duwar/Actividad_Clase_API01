@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Consumo API</title>
+    <!-- link estilos de boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- link de estilos -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Script de boostrap -->
+    <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- script personal -->
+    <script async src="./script.js"></script>
+</head>
+
+
+<body>
+
+    <header>
+        <h1>¡Busca tu país!</h1>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <form class="d-flex centro" role="search">
+                    <input id="buscarPais" class="form-control me-2" type="search" placeholder="Escribe tu país a buscar.." aria-label="Search" />
+                    <button onclick="cargarInformacion(event)" class="btn btn-outline-success">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section id="datos"></section>
+
+    </main>
+
+    <footer class="footer-def">
+        <section class="footer-complet">
+            <div class="footer-links">
+                <a href="#">Política de privacidad</a> |
+                <a href="#">Condiciones de uso</a> | <a href="#">Legal</a> |
+                <a href="#">Mapa del sitio</a>
+            </div>
+            <div class="footer-copy">
+                Copyright © 2025 Motoversus. Todos los derechos reservados
+            </div>
+        </section>
+    </footer>
+ 
+</body>
+
+</html>
